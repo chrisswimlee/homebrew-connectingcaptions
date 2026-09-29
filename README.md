@@ -11,5 +11,5 @@ The cask installs the notarized GitHub Release zip. It does not install FluidVoi
 After a new `v*` release, from this checkout:
 
 ```bash
-./update-cask.sh 1.6.13 /path/to/SHA256SUMS
+./update-cask.sh 1.6.15 /path/to/SHA256SUMS
 ```
