@@ -1,6 +1,6 @@
 cask "connectingcaptions" do
-  version "1.6.15"
-  sha256 "65d37229439647c9703fc54c84c449e34bf8f22886526720451db8677317ebc1"
+  version "1.6.16"
+  sha256 "1a2f535d4dfa32e383db751673276b58414daa104368040a35d9095e41e6c1b0"
 
   url "https://github.com/chrisswimlee/connectingCaptions/releases/download/v#{version}/Connecting-Captions-#{version}.zip"
   name "Connecting Captions"
