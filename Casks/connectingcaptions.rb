@@ -3,6 +3,10 @@ cask "connectingcaptions" do
   sha256 "1a2f535d4dfa32e383db751673276b58414daa104368040a35d9095e41e6c1b0"
 
   url "https://github.com/chrisswimlee/connectingCaptions/releases/download/v#{version}/Connecting-Captions-#{version}.zip"
+  # 1.6.16's zip contains "Connecting Captions.app".
+  # The next zip contains "Connecting Captions Pro.app".
+  # Change version, sha256, name, and app in the same edit.
+  # connectingCaptions/scripts/check-homebrew-cask.py checks this file.
   name "Connecting Captions"
   desc "Live captions. Each sentence appears when it is ready"
   homepage "https://github.com/chrisswimlee/connectingCaptions"

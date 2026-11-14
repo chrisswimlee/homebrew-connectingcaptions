@@ -1,5 +1,5 @@
 #!/bin/bash
-# Point the cask at a published Connecting Captions release.
+# Point the cask at a published Connecting Captions Pro release.
 # Usage: ./update-cask.sh 1.6.13 /path/to/SHA256SUMS
 set -euo pipefail
 
